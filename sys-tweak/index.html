@@ -6,6 +6,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Guide for customs themes & Icons for the switch">
+      
       
         <meta name="author" content="Sodasoba1">
       
@@ -246,8 +248,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atmosphere-0190" class="md-nav__link">
-     atmosphere 0.19.0+
+  <a href="#binary-download" class="md-nav__link">
+     Binary Download
   </a>
   
 </li>
@@ -779,8 +781,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atmosphere-0190" class="md-nav__link">
-     atmosphere 0.19.0+
+  <a href="#binary-download" class="md-nav__link">
+     Binary Download
   </a>
   
 </li>
@@ -821,33 +823,35 @@
 
 <h1 id="sys-tweak-is-a-collection-of-miscellaneous-mitms"><a href="https://github.com/p-sam/switch-sys-tweak">Sys-Tweak is A collection of miscellaneous mitms.</a><a class="headerlink" href="#sys-tweak-is-a-collection-of-miscellaneous-mitms" title="Permanent link">&para;</a></h1>
 <p>The use we need it for is intercepting the displayed game icon,
-essentially it swaps out the icon shown for a installed title with an icon in our atmosphere cfw</p>
+essentially it swaps out the icon shown for a installed title with an icon in our atmosphere cfw located at </p>
 <p><code>SDMC:/atmosphere/contents/TITLEID/icon.jpg</code></p>
-<h2 id="atmosphere-0190"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m156.6 384.9-30.9-31.8c-8.5-7.6-11.5-20-8.6-31.3 3-8.9 7-20.5 12.7-33.8H24c-8.62 0-16.586-4.6-20.854-12.1a23.961 23.961 0 0 1 .211-24.1l52.473-88.5c12.96-21.9 36.5-36.2 61.97-36.2H200c2.4-3.1 4.8-6.8 7.2-10.4C289.1-4.07 411.1-8.142 483.9 5.275c11.7 2.139 20.7 11.155 22.8 22.785 13.4 72.84 9.4 194.84-111.4 276.74-3.5 2.4-8.2 4.8-11.3 6.3v83.1c0 25.5-13.4 49-35.3 62l-88.5 52.4c-7.4 4.4-16.6 4.5-24.1.3-7.5-4.3-12.1-12.3-12.1-20.9V380.8c-14.1 4.8-26.4 8.9-35.7 11.9-11.2 3.6-23.4.5-31.7-7.8zM384 167.1c22.1 0 40-17 40-40 0-21.2-17.9-40-40-40s-40 18.8-40 40c0 23 17.9 40 40 40z"/></svg></span> atmosphere 0.19.0+<a class="headerlink" href="#atmosphere-0190" title="Permanent link">&para;</a></h2>
+<p><code>FEAT_NSAM_CONTROL</code> : [5.1.0+] Mitm's <code>ns:am2</code>-&gt;GetReadOnlyApplicationControlDataInterface to override icon/author/version/name by title.</p>
+<p><code>FEAT_NSRO_CONTROL</code> : [11.0.0+] Same hook as above, but mitm target is <code>ns:ro</code></p>
+<h2 id="binary-download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M172.5 131.1c55.6-55.59 148-55.59 203.6 0 50 50 57.4 129.7 16.3 187.2l-1.1 1.6c-10.3 14.3-30.3 17.7-44.6 7.4-14.4-10.3-17.8-30.3-7.5-44.6l1.1-1.6c22.9-32.1 19.3-76-8.6-103.9-31.4-31.4-82.5-31.4-114 0L105.5 289.5c-31.51 30.6-31.51 82.5 0 114 27.8 27.9 71.8 31.5 103.8 8.6l1.6-2c14.4-9.4 34.4-6.1 44.6 8.3 10.3 14.4 7 34.4-7.4 44.7l-1.6 1.1c-58.4 41.1-136.3 34.5-186.29-15.4-56.469-56.5-56.469-148.1 0-204.5L172.5 131.1zm295 248.9c-56.5 56.5-148 56.5-204.5 0-50-50-56.5-128.8-15.4-186.3l1.1-1.6c9.4-14.3 29.4-17.7 44.6-7.4 14.4 9.4 17.8 29.4 7.5 44.6l-1.1 1.6c-22.9 31.2-19.3 76 8.6 103.9 31.4 31.4 82.5 31.4 114 0l112.2-112.3c31.5-31.5 31.5-83.4 0-114-27.8-27.87-71.8-31.51-103.8-8.6l-1.6 1.1c-14.4 10.3-34.4 6.1-44.6-7.42-10.3-14.38-7-34.37 7.4-44.64l1.6-1.12C451 6.731 529.8 13.25 579.8 63.24c56.5 56.46 56.5 148.06 0 204.46L467.5 380z"/></svg></span> Binary Download<a class="headerlink" href="#binary-download" title="Permanent link">&para;</a></h2>
 <p>Build <a href="https://github.com/p-sam/switch-sys-tweak">switch-sys-tweak</a> or alternatively use one of the links below of a pre compiled version.</p>
 <table>
 <thead>
 <tr>
-<th>LATEST VERSION:</th>
+<th>Package Links:</th>
 <th>Tested on</th>
-<th>link up?</th>
+<th align="center">link up?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span class="tooltip hint--top hint--success" aria-label="UP"><a href="https://gbatemp.net/threads/custom-game-icons-tutorial-and-sharing-hub.574675/post-9738297">latest version on GBATemp</a></span></td>
-<td>HOS 16.0.0 - AMS 1.5.2</td>
-<td><span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.7 0 45.2l-256 256c-12.5 12.5-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2 12.498-12.5 32.758-12.5 45.258 0L159.1 338.7l234.3-233.3c12.5-12.52 32.7-12.52 45.2 0z"/></svg></span></td>
-</tr>
-<tr>
 <td><span class="tooltip hint--top hint--success" aria-label="UP"><a href="https://github.com/p-sam/switch-sys-tweak/actions">p-sam sys-tweak github artifact</a></span></td>
-<td>[Same as above]</td>
-<td><span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.7 0 45.2l-256 256c-12.5 12.5-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2 12.498-12.5 32.758-12.5 45.258 0L159.1 338.7l234.3-233.3c12.5-12.52 32.7-12.52 45.2 0z"/></svg></span></td>
+<td>HOS 16.0.0 - AMS 1.5.2</td>
+<td align="center"><span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.7 0 45.2l-256 256c-12.5 12.5-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2 12.498-12.5 32.758-12.5 45.258 0L159.1 338.7l234.3-233.3c12.5-12.52 32.7-12.52 45.2 0z"/></svg></span></td>
 </tr>
 <tr>
-<td><span class="tooltip hint--top hint--warning" aria-label="Older Version"><a href="https://github.com/16BitWonder/switch-sys-tweak">16BitWonder-Git Repo</a></span></td>
-<td>Forked Version  AMS 1.0.0</td>
-<td><span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.7 0 45.2l-256 256c-12.5 12.5-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2 12.498-12.5 32.758-12.5 45.258 0L159.1 338.7l234.3-233.3c12.5-12.52 32.7-12.52 45.2 0z"/></svg></span></td>
+<td><span class="tooltip hint--top hint--success" aria-label="UP"><a href="https://gbatemp.net/threads/custom-game-icons-tutorial-and-sharing-hub.574675/post-9738297">A version I posted on GBATemp</a></span></td>
+<td>HOS 14.1.0 - AMS 1.3.2<br>to<br>HOS 16.0.2 - AMS 1.5.2</td>
+<td align="center"><span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.7 0 45.2l-256 256c-12.5 12.5-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2 12.498-12.5 32.758-12.5 45.258 0L159.1 338.7l234.3-233.3c12.5-12.52 32.7-12.52 45.2 0z"/></svg></span></td>
+</tr>
+<tr>
+<td><span class="tooltip hint--top hint--warning" aria-label="Older Version"><a href="https://github.com/16BitWonder/switch-sys-tweak">16BitWonder Github Repo</a></span></td>
+<td>Forked Version :    AMS 1.0.0</td>
+<td align="center"><span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.7 0 45.2l-256 256c-12.5 12.5-32.7 12.5-45.2 0L9.372 278.6c-12.496-12.5-12.496-32.7 0-45.2 12.498-12.5 32.758-12.5 45.258 0L159.1 338.7l234.3-233.3c12.5-12.52 32.7-12.52 45.2 0z"/></svg></span></td>
 </tr>
 </tbody>
 </table>
@@ -864,9 +868,9 @@ setup this folder structure and contents on your <span class="tooltip hint--righ
   "name": "sys-tweak",<br>
   "tid": "00FF747765616BFF",<br>
   "requires_reboot": true<br>
-}<br>
+}
 </code></p>
-<p>boot2.flag should be a empty file! <span class="tooltip hint--right hint--error" aria-label="rename a blank txt file"><span class="twemoji no"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68L23 12m-10 5h-2v-2h2v2m0-4h-2V7h2v6z"/></svg></span></span>
+<p><span class="tooltip hint--right hint--error" aria-label="rename a blank txt file"><span class="twemoji error"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68L23 12m-10 5h-2v-2h2v2m0-4h-2V7h2v6z"/></svg></span></span> boot2.flag should be a empty file!
     <span class="tooltip hint--top hint--error" aria-label="empty text file"><code>SDMC:/atmosphere/contents/00FF747765616BFF/flags/boot2.flag</code></span></p>
 <p>once you have finished your sys-tweak folder <span class="tooltip hint--bottom" aria-label="SD:/atmosphere/contents/00FF747765616BFF/"><code>00FF747765616BFF</code></span> it should like similar to this:</p>
 <details class="info inline end">
