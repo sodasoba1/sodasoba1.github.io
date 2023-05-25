@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#add-new-icons-via-url" class="md-skip">
           Skip to content
         </a>
       
@@ -735,6 +735,7 @@
                 
 
 
+<h1 id="add-new-icons-via-url"><span class="twemoji th-red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9.09c-.06-.33-.09-.66-.09-1 0-.68.12-1.36.35-2H5l3.5-4.5 2.5 3 3.5-4.5 2.23 2.97c.97-.63 2.11-.97 3.27-.97.34 0 .67.03 1 .09V5a2 2 0 0 0-2-2H5m14 13v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2z"/></svg></span> Add new icons Via URL<a class="headerlink" href="#add-new-icons-via-url" title="Permanent link">&para;</a></h1>
 <p>With NX-GIC you can add new icons multiple ways, this method I will use a cover from the xbox store
 you can do this with almost any website image with some <em>minor</em> <code>Caveats</code> a *.webp image will <strong>NOT</strong> work.</p>
 <p>Click on <mark class="critic">&nbsp;Add New <span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 256C0 114.6 114.6 0 256 0s256 114.6 256 256-114.6 256-256 256S0 397.4 0 256zm256 112c13.3 0 24-10.7 24-24v-64h64c13.3 0 24-10.7 24-24s-10.7-24-24-24h-64v-64c0-13.3-10.7-24-24-24s-24 10.7-24 24v64h-64c-13.3 0-24 10.7-24 24s10.7 24 24 24h64v64c0 13.3 10.7 24 24 24z"/></svg></span> </mark> &nbsp;and Select the <em>icon style</em> you are trying to add, in the example below it's vertical</p>
@@ -742,12 +743,16 @@ you can do this with almost any website image with some <em>minor</em> <code>Cav
 <p>on the xbox store <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 352c0 88.38 71.63 160 160 160h64c88.38 0 160-71.63 160-160V224H0v128zM176 0h-16C71.63 0 0 71.62 0 160v32h176V0zm48 0h-16v192h176v-32C384 71.62 312.4 0 224 0z"/></svg></span> <span class="keys"><kbd class="key-right-button">Right Button</kbd></span> the image you want to add as a cover and open in a new tab</p>
 <h1 id="_2"><img alt="add-new-xb-opennew" src="../img/usingnxgic/url-add/add-new2.png" /><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h1>
 <p>with the xbox store URL you will see a long URL copy the link leaving the ending off after <code>?</code>
-the link doesn't have a image extension but I'll explain the ending url <code>?q=90&amp;w=177&amp;h=265</code>
-<code>q=90 quality
-w=177 width
-h=265</code>
-leaving this off the url will give you the full sized image which will give you a better image</p>
-<h1 id="_3"><img alt="add-new-url" src="../img/usingnxgic/url-add/add-new3.png" /><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h1>
+the link doesn't have a image extension but I'll explain the ending url <code>?q=90&amp;w=177&amp;h=265</code></p>
+<pre>
+q=90 'quality'
+w=177 'width'
+h=265 'height'
+</pre>
+<p>leaving this off the url will give you the full sized image which will give you a better image
+<img alt="add-new-url" src="../img/usingnxgic/url-add/add-new3.png" /></p>
+<details class="note">
+<summary>Example of quality difference</summary>
 <table>
 <thead>
 <tr>
@@ -757,30 +762,31 @@ leaving this off the url will give you the full sized image which will give you 
 </thead>
 <tbody>
 <tr>
-<td><img alt="add-lowq" src="../img/usingnxgic/url-add/addexlq.jpg" /></td>
-<td><img alt="add-highq" src="../img/usingnxgic/url-add/addexfull.jpg" /></td>
+<td><span class="tooltip hint--top hint--rounded hint--bounce hint--error" aria-label="LOWER QUALITY"><img alt="add-lowq" src="../img/usingnxgic/url-add/addexlq.jpg" /></span></td>
+<td><span class="tooltip hint--top hint--rounded hint--bounce hint--success" aria-label="HIGHER QUALITY"><img alt="add-highq" src="../img/usingnxgic/url-add/addexfull.jpg" /></span></td>
 </tr>
 </tbody>
 </table>
-<p>Now once you have copied the link you want to add simply click the <code>URL</code> button
-and the link will automatically be pasted into the resize window simply click <code>OK</code></p>
-<h1 id="_4"><img alt="add-new" src="../img/usingnxgic/url-add/add-new4.png" /><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h1>
+</details>
+<p>Now once you have copied the link you want to add simply click the <mark class="critic">&nbsp; URL &nbsp;</mark> button
+and the link will automatically be pasted into the resize window simply click <mark class="critic">&nbsp; OK &nbsp;</mark></p>
+<h1 id="_3"><img alt="add-new" src="../img/usingnxgic/url-add/add-new4.png" /><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h1>
 <p>now you will see a preview of how the icon will look, we need to find the right title ID that matches our game
 so you may need to add the icon name or use a shorter name just to find the correct titleID</p>
-<p>click <code>Find...</code></p>
+<p>click <mark class="critic">&nbsp; Find... &nbsp;❘ &nbsp;▼&nbsp;</mark></p>
 <p>search with your preferred method <em>CSV</em> will only look based off installed titles</p>
 <p><em>JSON</em> will search a much larger file and might take some time to find matches</p>
-<h1 id="_5"><img alt="add-csv-search" src="../img/usingnxgic/url-add/add-new5.png" /><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h1>
-<p>once you have found the correct Title click <code>OK</code></p>
-<h1 id="_6"><img alt="add-new-tidfound" src="../img/usingnxgic/url-add/add-new6.png" /><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h1>
+<h1 id="_4"><img alt="add-csv-search" src="../img/usingnxgic/url-add/add-new5.png" /><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h1>
+<p>once you have found the correct Title click <mark class="critic">&nbsp; OK &nbsp;</mark></p>
+<h1 id="_5"><img alt="add-new-tidfound" src="../img/usingnxgic/url-add/add-new6.png" /><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h1>
 <p>You will notice the Icon Name may update &amp; the Title ID will now be shown in the text box
 double check everything is correct and click <mark class="critic">  &nbsp;<span class="twemoji yes"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 256C0 114.6 114.6 0 256 0s256 114.6 256 256-114.6 256-256 256S0 397.4 0 256zm256 112c13.3 0 24-10.7 24-24v-64h64c13.3 0 24-10.7 24-24s-10.7-24-24-24h-64v-64c0-13.3-10.7-24-24-24s-24 10.7-24 24v64h-64c-13.3 0-24 10.7-24 24s10.7 24 24 24h64v64c0 13.3 10.7 24 24 24z"/></svg></span> Add&nbsp; </mark></p>
-<h1 id="_7"><img alt="add-newtid-name" src="../img/usingnxgic/url-add/add-new7.png" /><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h1>
+<h1 id="_6"><img alt="add-newtid-name" src="../img/usingnxgic/url-add/add-new7.png" /><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h1>
 <p>after you have Added the image it will be put into the output window ready for transfer as well as your NX-GIC repo on your system</p>
-<h1 id="_8"><img alt="add-new-infolder" src="../img/usingnxgic/url-add/add-new8.png" /><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h1>
+<h1 id="_7"><img alt="add-new-infolder" src="../img/usingnxgic/url-add/add-new8.png" /><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h1>
 <p>Simply Click Transfer and follow the usual transferring steps</p>
-<h1 id="_9"><img alt="add-new-upload" src="../img/usingnxgic/url-add/add-new9.png" /><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h1>
-<h1 id="transferring">Transferring <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 4a2 2 0 0 0-2 2v4h2V6h8v3h-2.5l3.5 3.5L20.5 9H18V6a2 2 0 0 0-2-2H8m-5 8v2h8v-2H3m0 3v2h8v-2H3m10 0v2h8v-2h-8M3 18v2h8v-2H3m10 0v2h8v-2h-8z"/></svg></span><a class="headerlink" href="#transferring" title="Permanent link">&para;</a></h1>
+<h1 id="_8"><img alt="add-new-upload" src="../img/usingnxgic/url-add/add-new9.png" /><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h1>
+<h1 id="transferring"><span class="twemoji th-red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 4a2 2 0 0 0-2 2v4h2V6h8v3h-2.5l3.5 3.5L20.5 9H18V6a2 2 0 0 0-2-2H8m-5 8v2h8v-2H3m0 3v2h8v-2H3m10 0v2h8v-2h-8M3 18v2h8v-2H3m10 0v2h8v-2h-8z"/></svg></span> Transferring<a class="headerlink" href="#transferring" title="Permanent link">&para;</a></h1>
 <div class="admonition info inline start">
 <p class="admonition-title">sys-ftpd-light should be enabled on your switch</p>
 </div>
@@ -793,7 +799,7 @@ in <code>SD:/atmosphere/contents/[titleid]/icon.jpg</code></p>
 <p><span class="tooltip hint--right hint--large hint--warning" aria-label="If you clear the queue all the icons you have added to the output will delete after uploading"><img alt="nxgic" src="../img/usingnxgic/nx-gic6.png" /></span></p>
 <p>once you've finished transferring you will see success in green</p>
 <div class="admonition warning">
-<p class="admonition-title">You will need to reboot for icons to refresh</p>
+<p class="admonition-title">You will need to reboot for icons to refresh <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l3.89 3.89.07.14L9 12H6a7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.896 8.896 0 0 0 13 21a9 9 0 0 0 9-9 9 9 0 0 0-9-9z"/></svg></span></p>
 </div>
 
               
